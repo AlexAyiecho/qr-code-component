@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: Outfit;
+  src:url("font/Outfit.ttf");
+}
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+main{
+  margin: 100px auto;
+  max-width:min-content;
+  padding: 10px 10px 25px 10px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/*qr-code image*/
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  
+}
+
+
+/*paragraphs*/
+
+.paragraphs-section{
+text-align:center;
+width: 190px;
+
+}
+
+.header{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.scan-instruction{
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+/*footer*/
+
+footer{
+  text-align: center;
+  font-size: small;
+}
